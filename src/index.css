@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{font: 16/1.5 'Roboto', 
+    sans-serif; 
+    @apply text-base 
+    font-light text-black;
+    outline: none;}
+
+
+img{
+    @apply object-cover
+}
+a, h6 { 
+    @apply md:text-xs text-[10px] font-normal
+}
+
+
+h1 { 
+    @apply text-[40px]
+ }
+
+h3 { 
+    @apply text-lg font-bold
+ }
+
+.container + .container{
+    @apply mb-24
+}
+
+.title, .sub_title {
+     @apply text-[40px] lg:text-6xl text-[#BDBDBD] pb-3
+    }
+
+
+.sub_title{
+    @apply text-black font-bold
+}
+
+.footer_title{
+    @apply font-bold pb-6
+}
+
+.btn_light{
+    @apply bg-white 
+}
+
+.btn_dark{
+    @apply bg-black text-white 
+}
+.btn { 
+    @apply py-4 pl-4 pr-6 inline-flex items-center gap-2 hover:shadow-md
+}
+
+input, textarea{
+    @apply bg-[#F3F3F3] px-4 py-2 w-full focus:outline-none
+}
