@@ -20,7 +20,7 @@ const OurProject = () => {
             <img src={project_img_5} alt="project_img_5" />
           </div>
         </div>
-      <div className="text-right mt-7"><Button icon='white' className='btn_dark text-white' to='./projects' text='All Projects' /></div>
+      <div className="text-right mt-7"><Button icon='white' className='btn_dark text-white' to='./projects' text='All Project' /></div>
     </Container>
   )
 }
